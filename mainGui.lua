@@ -1,4 +1,4 @@
-function mainGui(plrGui)
+local function mainGui(plrGui)
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "QuantCheat"
     ScreenGui.Parent = plrGui
