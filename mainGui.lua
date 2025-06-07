@@ -1,7 +1,7 @@
-function mainGui(plrGui)
+
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "QuantCheat"
-    ScreenGui.Parent = plrGui
+    ScreenGui.Parent = services.PlayerGui
     ScreenGui.ResetOnSpawn = false
 
     local MainFrame = Instance.new("Frame")
@@ -354,4 +354,3 @@ function mainGui(plrGui)
 
         return MainButton
     end
-end
