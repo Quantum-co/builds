@@ -1,7 +1,7 @@
 
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "QuantCheat"
-    ScreenGui.Parent = services.PlayerGui
+    ScreenGui.Parent = game:GetService("PlayerGui")
     ScreenGui.ResetOnSpawn = false
 
     local MainFrame = Instance.new("Frame")
